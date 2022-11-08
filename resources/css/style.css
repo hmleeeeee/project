@@ -1465,7 +1465,7 @@ footer {
     margin: 0;
     font-weight: 400;
 }
-.site-link{ color: #888; }
+.site-link{ color: #888; text-decoration: underline !important;}
 .site-link:hover{ color: #000; }
 .details span.dark{ margin-right: 5px; }
 
