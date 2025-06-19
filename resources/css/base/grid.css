@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+/*** Template grid ***/
+.ee-gutter-0>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.ee-gutter-5>[class*=col-] {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.ee-gutter-5 {
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+}
+
+.ee-container-80 {
+    width: 80%;
+    max-width: 100%;
+}
+
+.ee-container-90 {
+    width: 90%;
+    max-width: 100%;
+}
+
+.ee-container-full {
+    max-width: 100%;
+}
+
+.ee-img-container-400 {
+    min-height: 40rem;
+}
+
+.ee-img-container-700 {
+    height: 70rem;
+    overflow: hidden;
+}
+
+.ee-img-container-full {
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.ee-img-container-full>img {
+    width: 80%;
+}
+
+.ee-img-container-full img:nth-child(2) {
+    width: 90%;
+    margin-top: 10vh;
+}
+
+
+/* text block */
+.ee-text-block {
+    position: relative;
+}
+
+.ee-text-block-h700 {
+    min-height: 70rem;
+}
+
+.ee-text-center {
+    text-align: center;
+}
+
+.ee-text-block-w40 {
+    width: 40%;
+}
+
+.ee-text-block-w50 {
+    width: 50%;
+}
+
+.ee-text-block-w60 {
+    width: 60%;
+}
+
+.ee-text-block-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* details block */
+.ee-details-block {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ee-details-block-gallery {
+    padding-top: 0;
+    padding-bottom: 3rem;
+}
+
+
+/* separator */
+.ee-separator {
+    border-top-width: .1rem;
+    border-top-color: #eaeaea;
+    border-top-style: solid;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+/* padding & margin */
+.ee-padding-right-80 {
+    padding-right: 8rem;
+}
+
+/*** Grid gallery ***/
+.ee-project-photos {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background-color: #f6f6f6;
+}
+
+.ee-grid-gallery {
+    position: relative;
+}
+
+.ee-grid-gallery[data-columns="2"] .ee-grid-item.col-md-12 {
+    width: 100%;
+    padding: 0;
+}
+
+/* grid items */
+.ee-grid-item {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ee-grid-gallery[data-columns="2"] .ee-grid-item {
+    width: 50%;
+}
+
+.ee-grid-gallery[data-columns="3"] .ee-grid-item {
+    width: 33.33%;
+}
+
+.ee-grid-gallery[data-columns="4"] .ee-grid-item {
+    width: 25%;
+}
+
+.ee-grid-item-link {
+    width: 100%;
+    height: 0;
+    display: block;
+    padding: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.ee-grid-img-wrapper {
+    top: 1.5rem;
+    right: 1.5rem;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
+
+.ee-grid-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.ee-grid-item-h1 {
+    padding-bottom: 75%;
+}
+
+.ee-grid-item-h2 {
+    padding-bottom: 150%;
+}
+
+
+/* grid search icon */
+.ee-circled-icon {
+    width: 5.6rem;
+    height: 5.6rem;
+    line-height: 5.6rem;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    text-align: center;
+    border: .2rem solid currentColor;
+}
+
+.ee-circled-icon:before {
+    line-height: 5.6rem;
+    display: block;
+    vertical-align: middle;
+}
+
+.ee-icon {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: 1.5rem;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    border-color: var(--color-white);
+    color: var(--color-white);
+}
+
+
+/* grid zooming animation */
+.ee-grid-item-link:hover .ee-icon {
+    display: block;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.ee-grid-item-link.ee-zoom-on .ee-grid-img {
+    -webkit-transition-duration: 2s;
+    transition-duration: 2s;
+    transition: transform 0.7s linear, -webkit-transform 0.7s linear;
+}
+
+.ee-grid-item-link.ee-zoom-on:hover .ee-grid-img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

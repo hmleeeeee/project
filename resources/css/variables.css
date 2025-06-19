@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* color */
+:root {
+  --color-primary       : #1E8162;
+  --color-secondary-1   : #D3DCEC;
+  --color-secondary-2   : #EDF3FF;
+  --color-secondary-3   : #FBFDFF;
+  --color-system-1      : #FA2829;
+
+  --color-white         : #FFFFFF; 
+  --color-black         : #000000; 
+  --color-grays-m       : #FAFAFA;  
+  --color-grays-0       : #F5F5F5;
+  --color-grays-1       : #DFDFDF;
+  --color-grays-2       : #CACACA;
+  --color-grays-3       : #B5B5B5;
+  --color-grays-4       : #9F9F9F;
+  --color-grays-5       : #8A8A8A;
+  --color-grays-6       : #767676;
+  --color-grays-7       : #5F5F5F;
+  --color-grays-8       : #494949;
+  --color-grays-9       : #343434;
+}
+
+/* size */
+:root {
+  --input-width-sm: 8rem;
+  --input-width-md: 18rem;
+  --input-width-lg: 40rem;
+  --input-width-full: 100%;
+}

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+.ee-color-button {
+    margin-bottom: 6rem;
+}
+
+.ee-button-link {
+    position: relative;
+    width: 14rem;
+    height: 5.9rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.ee-button-link a {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: var(--color-black);
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    position: relative;
+    display: block;
+    z-index: 99;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.ee-button-block {
+    width: 50%;
+    height: 5.9rem;
+    /*reste en px*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.ee-button-block-pink {
+    background-color: #fee7e1;
+}
+
+.ee-button-block-grey {
+    background-color: #efeff0;
+}
+
+.ee-button-block-grey2 {
+    background-color: #d9d9d9;
+}
+
+.ee-button-block-light-grey {
+    background-color: #eef2f5;
+}
+
+.ee-button-block-light-grey2 {
+    background-color: #fafafa;
+}
+
+.ee-button-block-light-grey3 {
+    background-color: #eaedf2;
+}
+
+.ee-button-block-light-green {
+    background-color: #cdfbe0;
+}
+
+.ee-button-block-green {
+    background-color: #c9dbdd;
+}
+
+.ee-button-block-deepgreen {
+    background-color: #365A4E;
+}
+
+.ee-button-block-khaki {
+    background-color: #dadedd;
+}
+
+
+.ee-button-block-green2 {
+    background-color: #c9dbdd;
+}
+
+.ee-button-block-skyblue {
+    background-color: #c9dbdd;
+}
+
+.ee-button-block-blue {
+    background-color: #aac5da;
+}
+
+.ee-button-block-orange {
+    background-color: #f6eae6;
+}
+.ee-button-block-orange2 {
+    background-color: #ffc896;
+}
+
+.ee-button-block-yellow-green {
+    background-color: #cef1d3;
+}
+
+
+
+
+.ee-content-colorlink-wrap {
+    margin: 3rem 0 12rem 0;
+}
+
+.ee-colorlink {
+    position: relative;
+    width: 14rem;
+    height: 5.9rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.ee-colorlink a {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: var(--color-black);
+    font-size: 2rem;
+    line-height: 1.5em;
+    position: relative;
+    display: block;
+    z-index: 99;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

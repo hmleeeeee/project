@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/*** form element ***/
+/* text field */
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus,
+textarea:focus {
+    outline: none;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="file"],
+textarea {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    border-color: #ececec;
+    padding: 1.8rem 1rem 1rem;
+    height: auto;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-width: 0 0 .1rem;
+    border-style: solid;
+    display: block;
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    font-weight: 300;
+    color: var(--color-black);
+    background-image: none;
+    border-bottom: .1rem solid #ececec;
+    border-color: ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom-width: .2rem;
+    border-color: var(--color-black);
+}
+
+.ee-form-component {
+    margin-bottom: .5rem;
+    position: relative;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    text-shadow: none;
+    padding: 1rem 2rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 300;
+    border-style: solid;
+    color: var(--color-white);
+    letter-spacing: 1px;
+    border-width: 0;
+    -webkit-transition: background-color .15s ease-out;
+    transition: background-color .15s ease-out;
+    background-color: var(--color-black);
+    margin-top: 1rem;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background-color: var(--color-black);
+}
+
+select {
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+}
